@@ -14,8 +14,8 @@
          </font></Label>
       <HBox layoutX="39.0" layoutY="129.0" prefHeight="179.0" prefWidth="529.0" spacing="10.0">
          <children>
-            <Button id="fx:id btnTela2" mnemonicParsing="false" text="Ir Tela 2" />
-            <Button id="fx:id btnTela3" mnemonicParsing="false" text="Ir Tela 3" />
+            <Button id="fx:id btnTela2" mnemonicParsing="false" text="Ir Tela 2" onAction="#irParaTela2"/>
+            <Button id="fx:id btnTela3" mnemonicParsing="false" text="Ir Tela 3" onAction="#irParaTela3"/>
          </children>
       </HBox>
    </children>
