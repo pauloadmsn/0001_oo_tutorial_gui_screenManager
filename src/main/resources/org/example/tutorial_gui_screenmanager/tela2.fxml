@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.tutorial_gui_screenmanager.MainController">
+    <children>
+        <Label layoutX="271.0" layoutY="94.0" text="Tela 2">
+            <font>
+                <Font size="24.0" />
+            </font></Label>
+        <HBox layoutX="39.0" layoutY="129.0" prefHeight="179.0" prefWidth="529.0" spacing="10.0">
+            <children>
+                <Button id="fx:id btnTela1" mnemonicParsing="false" text="Ir Tela 1" onAction="#irParaTela1"/>
+                <Button id="fx:id btnTela3" mnemonicParsing="false" text="Ir Tela 3" onAction="#irParaTela3"/>
+            </children>
+        </HBox>
+    </children>
+</Pane>
